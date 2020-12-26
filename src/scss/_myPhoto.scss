@@ -1,0 +1,11 @@
+#myPhoto{
+  position: absolute;
+  left: 837px;
+  width: $width-page - 750px;
+  height: $width-page - 700px;
+  z-index: -1;
+}
+#myPhoto img {
+  width: $width-page - 750px;
+  height: $width-page - 700px;
+}

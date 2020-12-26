@@ -1,0 +1,48 @@
+#Rectangl {
+  float: left;
+  clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+  width: $width-page - 110px;
+  height: 300px;
+  margin-right: 0;
+  background-color: #72086D;
+  h4{
+    font-size: 40px;
+    line-height: 47px;
+    margin: 0 0 0 0;
+    padding: 20px 0 0 33px;
+  }
+  h6{
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0 0 0 0;
+    padding: 5px 0 0 33px;
+  }
+  ul{
+    list-style: none;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0 0 0 0;
+    padding: 15px 0 0 64px;
+    li:before{
+      content: url("../images/EmailIcon.png");
+    }
+    li:last-child:before{
+      content: url("../images/EmailIcon.png");
+    }
+  }
+  #MyContacts{
+    display: flex;
+    flex-direction: row;
+    div:nth-child(-n+3){
+      width: 51px;
+      height: 51px;
+      border-radius: 60%;
+      margin: 20px 0 20px 15px;
+      background-color: #FFFFFF;
+    }
+    div:first-child{
+      margin: 0 0 0 0;
+      margin: 20px 0 20px 33px;
+    }
+  }
+}
