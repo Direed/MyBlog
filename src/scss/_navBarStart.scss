@@ -1,0 +1,19 @@
+#NavBarStart{
+  float: left;
+  ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    font-size: 24px;
+    line-height: 28px;
+    padding-left: 33px;
+    li{
+      margin: 0 0 0 40px;
+    }
+    li:first-child{
+      margin: 0 0 0 0;
+    }
+  }
+}

@@ -1,11 +1,11 @@
 #myPhoto{
-  position: absolute;
-  left: 837px;
+  float: right;
+  background-color: #72086D;
   width: $width-page - 750px;
   height: $width-page - 700px;
-  z-index: -1;
 }
 #myPhoto img {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 60% 100%);
   width: $width-page - 750px;
   height: $width-page - 700px;
 }

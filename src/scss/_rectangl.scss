@@ -1,9 +1,8 @@
 #Rectangl {
   float: left;
-  clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
-  width: $width-page - 110px;
+  width: $width-page - 250px;
   height: 300px;
-  margin-right: 0;
+  margin: 0 0 0 0;
   background-color: #72086D;
   h4{
     font-size: 40px;
@@ -22,12 +21,23 @@
     font-size: 24px;
     line-height: 28px;
     margin: 0 0 0 0;
-    padding: 15px 0 0 64px;
-    li:before{
-      content: url("../images/EmailIcon.png");
-    }
-    li:last-child:before{
-      content: url("../images/EmailIcon.png");
+    padding: 15px 0 0 33px;
+    div{
+      margin:auto;
+      li{
+      }
+      .Emails:before{
+        content: url("../images/EmailIcon.png");
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+      }
+      .Phones:before{
+        content: url("../images/PhoneIcon.png");
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+      }
     }
   }
   #MyContacts{
@@ -39,10 +49,16 @@
       border-radius: 60%;
       margin: 20px 0 20px 15px;
       background-color: #FFFFFF;
+      transition: all .3s;
     }
     div:first-child{
       margin: 0 0 0 0;
       margin: 20px 0 20px 33px;
+      transition: all .2s;
+    }
+    div:hover{
+      background-color: #666666;
+      transform: rotate(360deg);
     }
   }
 }

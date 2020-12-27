@@ -1,9 +1,8 @@
 #Rectangl {
   float: left;
-  clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
-  width: 890px;
+  width: 750px;
   height: 300px;
-  margin-right: 0;
+  margin: 0 0 0 0;
   background-color: #72086D;
 }
 #Rectangl h4 {
@@ -23,13 +22,22 @@
   font-size: 24px;
   line-height: 28px;
   margin: 0 0 0 0;
-  padding: 15px 0 0 64px;
+  padding: 15px 0 0 33px;
 }
-#Rectangl ul li:before {
-  content: url("../images/EmailIcon.png");
+#Rectangl ul div {
+  margin: auto;
 }
-#Rectangl ul li:last-child:before {
+#Rectangl ul div .Emails:before {
   content: url("../images/EmailIcon.png");
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+#Rectangl ul div .Phones:before {
+  content: url("../images/PhoneIcon.png");
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
 }
 #Rectangl #MyContacts {
   display: flex;
@@ -41,23 +49,70 @@
   border-radius: 60%;
   margin: 20px 0 20px 15px;
   background-color: #FFFFFF;
+  transition: all 0.3s;
 }
 #Rectangl #MyContacts div:first-child {
   margin: 0 0 0 0;
   margin: 20px 0 20px 33px;
+  transition: all 0.2s;
+}
+#Rectangl #MyContacts div:hover {
+  background-color: #666666;
+  transform: rotate(360deg);
 }
 
 #myPhoto {
-  position: absolute;
-  left: 837px;
+  float: right;
+  background-color: #72086D;
   width: 250px;
   height: 300px;
-  z-index: -1;
 }
 
 #myPhoto img {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 60% 100%);
   width: 250px;
   height: 300px;
+}
+
+#NavBarStart {
+  float: left;
+}
+#NavBarStart ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  font-size: 24px;
+  line-height: 28px;
+  padding-left: 33px;
+}
+#NavBarStart ul li {
+  margin: 0 0 0 40px;
+}
+#NavBarStart ul li:first-child {
+  margin: 0 0 0 0;
+}
+
+#NavBarEnd {
+  float: right;
+}
+#NavBarEnd ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  font-size: 24px;
+  line-height: 28px;
+}
+#NavBarEnd ul li {
+  margin: 0 20px 0 0;
+}
+
+#mainBox {
+  background-color: #72086D;
+  height: 330px;
 }
 
 body {
@@ -78,7 +133,6 @@ header {
 }
 
 header #AboutMe {
-  display: inline;
   width: 1000px;
 }
 header #AllNavBar {

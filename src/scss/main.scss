@@ -5,7 +5,9 @@ $text-font-weight: normal;
 $text-color: #FFFFFF;
 @import "_rectangl.scss";
 @import "_myPhoto.scss";
-
+@import "navBarStart.scss";
+@import "navBarEnd.scss";
+@import "mainBox.scss";
 body {
   width: $width-page;
   margin: auto;
@@ -23,7 +25,6 @@ header {
 }
 header {
   #AboutMe {
-    display: inline;
     width: $width-page;
   }
   #AllNavBar{
