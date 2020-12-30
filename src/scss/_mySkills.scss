@@ -1,0 +1,51 @@
+#mySkills{
+  background-color: #72086D;
+  height: 330px;
+  .paragraph{
+    padding: 10px 0 10px 0;
+    text-align: center;
+    a{
+      font-size: 36px;
+      line-height: 42px;
+    }
+  }
+  #skills_and_description{
+    display: flex;
+    flex-direction: row;
+  }
+  #skill_list{
+    display: flex;
+    flex-direction: column;
+  }
+  .skill{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+    div{
+      margin-right: 15px;
+    }
+    div:first-child{
+      margin-left: 33px;
+    }
+    .progressBar{
+      width: 250px;
+      height: 20px;
+      background: #FFFFFF;
+      border-radius: 30px;
+      #progress_js{
+        width: 190px;
+        height: 20px;
+        background: linear-gradient(90deg, #365FE8 0%, #B92EED 100%);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        text-align: center;
+        margin: 0 0 0 0;
+        a{
+          font-size: 12px;
+          line-height: 14px;
+        }
+      }
+    }
+  }
+}

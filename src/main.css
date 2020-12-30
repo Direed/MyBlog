@@ -85,13 +85,19 @@
   list-style: none;
   font-size: 24px;
   line-height: 28px;
-  padding-left: 33px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 #NavBarStart ul li {
-  margin: 0 0 0 40px;
+  cursor: pointer;
+  padding: 24px 33px 24px 33px;
 }
 #NavBarStart ul li:first-child {
-  margin: 0 0 0 0;
+  margin: 0 0 0;
+}
+#NavBarStart ul li:hover {
+  background-color: #111;
 }
 
 #NavBarEnd {
@@ -105,14 +111,88 @@
   list-style: none;
   font-size: 24px;
   line-height: 28px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 #NavBarEnd ul li {
-  margin: 0 20px 0 0;
+  cursor: pointer;
+  padding: 24px 33px 24px 33px;
+}
+#NavBarEnd ul li:hover {
+  background-color: #111;
 }
 
 #mainBox {
   background-color: #72086D;
   height: 330px;
+}
+#mainBox .paragraph {
+  padding: 10px 0 10px 0;
+  text-align: center;
+}
+#mainBox .paragraph a {
+  font-size: 36px;
+  line-height: 42px;
+}
+#mainBox .text-area {
+  text-align: center;
+}
+#mainBox .text-area a {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+#mySkills {
+  background-color: #72086D;
+  height: 330px;
+}
+#mySkills .paragraph {
+  padding: 10px 0 10px 0;
+  text-align: center;
+}
+#mySkills .paragraph a {
+  font-size: 36px;
+  line-height: 42px;
+}
+#mySkills #skills_and_description {
+  display: flex;
+  flex-direction: row;
+}
+#mySkills #skill_list {
+  display: flex;
+  flex-direction: column;
+}
+#mySkills .skill {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+#mySkills .skill div {
+  margin-right: 15px;
+}
+#mySkills .skill div:first-child {
+  margin-left: 33px;
+}
+#mySkills .skill .progressBar {
+  width: 250px;
+  height: 20px;
+  background: #FFFFFF;
+  border-radius: 30px;
+}
+#mySkills .skill .progressBar #progress_js {
+  width: 190px;
+  height: 20px;
+  background: linear-gradient(90deg, #365FE8 0%, #B92EED 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  text-align: center;
+  margin: 0 0 0 0;
+}
+#mySkills .skill .progressBar #progress_js a {
+  font-size: 12px;
+  line-height: 14px;
 }
 
 body {

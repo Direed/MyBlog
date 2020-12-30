@@ -5,9 +5,10 @@ $text-font-weight: normal;
 $text-color: #FFFFFF;
 @import "_rectangl.scss";
 @import "_myPhoto.scss";
-@import "navBarStart.scss";
-@import "navBarEnd.scss";
-@import "mainBox.scss";
+@import "_navBarStart.scss";
+@import "_navBarEnd.scss";
+@import "_mainBox.scss";
+@import "_mySkills.scss";
 body {
   width: $width-page;
   margin: auto;

@@ -1,4 +1,19 @@
 #mainBox{
   background-color: #72086D;
   height: 330px;
+  .paragraph{
+    padding: 10px 0 10px 0;
+    text-align: center;
+    a{
+      font-size: 36px;
+      line-height: 42px;
+    }
+  }
+  .text-area{
+    text-align: center;
+    a{
+      font-size: 24px;
+      line-height: 28px;
+    }
+  }
 }
