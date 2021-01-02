@@ -1,0 +1,25 @@
+#loadForm{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #72086D;
+  height: 330px;
+  .loadRectangle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    margin: 25px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(46.5% 44.42% at 49.5% 50%, #425BE9 0%, #AF32ED 100%), radial-gradient(50% 3612.5% at 50% 100%, #365FE8 0%, #B92EED 100%);
+    box-sizing: border-box;
+    p{
+      font-size: 24px;
+      line-height: 42px;
+      color: #FFFFFF;
+    }
+  }
+}
