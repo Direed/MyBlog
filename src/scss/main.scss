@@ -10,6 +10,7 @@ $text-color: #FFFFFF;
 @import "_mainBox.scss";
 @import "_mySkills.scss";
 @import "_loadForm.scss";
+@import "_myPortfolio.scss";
 body {
   width: $width-page;
   margin: auto;
@@ -26,12 +27,15 @@ header {
   margin: auto;
 }
 header {
+  padding-top: 2px;
   #AboutMe {
     width: $width-page;
   }
   #AllNavBar{
     margin: 5px 0 5px 0;
-    background-color: #72086D;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background-blend-mode: multiply,multiply;
     width: $width-page;
+    border-radius: 15px;
   }
 }
