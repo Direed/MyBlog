@@ -3,7 +3,8 @@
   width: 750px;
   height: 300px;
   margin: 0 0 0 0;
-  background: linear-gradient(180deg, #636363 0%, #484848 100%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.4) 120%) #989898;
+  background-blend-mode: multiply, multiply;
   border-radius: 15px 0 0 15px;
 }
 #Rectangl h4 {
@@ -64,7 +65,8 @@
 
 #myPhoto {
   float: right;
-  background: linear-gradient(180deg, #636363 0%, #484848 100%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.4) 120%) #989898;
+  background-blend-mode: multiply, multiply;
   width: 250px;
   height: 300px;
   border-radius: 0 15px 15px 0;
@@ -128,7 +130,8 @@
 
 #mainBox {
   display: block;
-  background: linear-gradient(180deg, #636363 0%, #484848 100%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.4) 120%) #989898;
+  background-blend-mode: multiply, multiply;
   height: 330px;
   margin: 0 0 2px 0;
   border-radius: 15px;
@@ -151,7 +154,8 @@
 
 #mySkills {
   display: none;
-  background: linear-gradient(180deg, #636363 0%, #484848 100%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.4) 120%) #989898;
+  background-blend-mode: multiply, multiply;
   height: 330px;
   margin: 0 0 2px 0;
   border-radius: 15px;
@@ -249,32 +253,11 @@
 
 #myPortfolio {
   display: none;
-  grid-template-columns: 1fr 1fr 1fr;
-  align-items: center;
-  justify-items: center;
-  background: linear-gradient(180deg, #636363 0%, #484848 100%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.4) 120%) #989898;
+  background-blend-mode: multiply, multiply;
   height: 330px;
   margin: 0 0 2px 0;
   border-radius: 15px;
-}
-#myPortfolio .block-for-portfolio {
-  width: 250px;
-  height: 100px;
-  background: #FFFFFF;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 15px;
-}
-#myPortfolio .block-for-portfolio p {
-  background: -webkit-linear-gradient(180deg, #1F6BFF 0%, #C323FF 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 28px;
-  display: flex;
-  align-items: center;
-  text-align: center;
 }
 
 body {
@@ -303,9 +286,10 @@ header #AboutMe {
 }
 header #AllNavBar {
   margin: 5px 0 5px 0;
-  background: linear-gradient(180deg, #636363 0%, #484848 100%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.4) 120%) #989898;
+  background-blend-mode: multiply, multiply;
   width: 1000px;
   border-radius: 15px;
 }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css'.map */

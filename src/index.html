@@ -10,16 +10,16 @@
         <div id="AboutMe">
             <div id="Rectangl">
                 <h4>Anton Vyhrest</h4>
-                <h6>UI/UX designer and frontend developer</h6>
+                <h6>Frontend developer</h6>
                 <ul>
                     <div><li class="Emails"> antoxavihrest@gmail.com</li></div>
                     <div><li class="Emails"> toxa.vikhrest@mail.ru</li></div>
                     <div><li class="Phones"> +380730589533</li></div>
                 </ul>
                 <div id="MyContacts">
-                    <div><img src="../images/TelegramIcon.png"></div>
-                    <div><img src="../images/FacebookIcon.png"></div>
-                    <div><img src="../images/LinkedinIcon.png"></div>
+                    <div id="telegram-contact" class="contacts"><img src="../images/TelegramIcon.png"></div>
+                    <div id="facebook-contact" class="contacts"><img src="../images/FacebookIcon.png"></div>
+                    <div id="linkedIn-contact" class="contacts"><img src="../images/LinkedinIcon.png"></div>
                 </div>
             </div>
             <div id="myPhoto"><img src="../images/myPhoto.jpg"></div>
@@ -27,24 +27,24 @@
         <div id="AllNavBar">
             <div id="NavBarStart" class="NavBar">
                 <ul>
-                    <li><a>Main</a></li>
-                    <li><a>My skills</a></li>
-                    <li><a>Portfolio</a></li>
-                    <li><a>Expirience</a></li>
+                    <li class="li-block" id="li-main"><a>Main</a></li>
+                    <li class="li-block" id="li-my-skills"><a>My skills</a></li>
+                    <li class="li-block" id="li-portfolio"><a>Portfolio</a></li>
+                    <li class="li-block" id="li-experience"><a>Experience</a></li>
                 </ul>
             </div>
             <div id="NavBarEnd" class="NavBar">
                 <ul>
-                    <li><a>Contacts</a></li>
+                    <li class="li-block" id="li-contacts"><a>Contacts</a></li>
                 </ul>
             </div>
         </div>
     </header>
-<div id="mainBox">
+<div id="mainBox" class="block">
         <div class="paragraph"><a>About me</a></div>
         <div class="text-area"><a>Hello, guys! My name is Anton. I'm front-end developer.</a></div>
     </div>
-<div id="mySkills">
+<div id="mySkills" class="block">
         <div class="paragraph"><a>My skills :</a></div>
         <div id="skills_and_description">
             <div id="skill_list">
@@ -74,7 +74,14 @@
             </div>
         </div>
     </div>
-<div id="myPortfolio"></div>
+<div id="myPortfolio" class="block">
+    <div class="block-for-portfolio"><p>Calculator(React + Material UI)</p></div>
+    <div class="block-for-portfolio"><p></p></div>
+    <div class="block-for-portfolio"><p></p></div>
+    <div class="block-for-portfolio"><p></p></div>
+    <div class="block-for-portfolio"><p></p></div>
+    <div class="block-for-portfolio"><p></p></div>
+</div>
 <div id="loadForm">
         <div class="loadRectangle"><p>L</p></div>
         <div class="loadRectangle"><p>O</p></div>
