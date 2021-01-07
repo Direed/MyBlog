@@ -28,7 +28,10 @@
     display: flex;
     flex-direction: column;
   }
-  #more_details_window{
+  .more_details_window{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
     width: 512px;
     height: 242px;
     background: linear-gradient(90deg, #365FE8 0%, #B92EED 100%);
@@ -52,7 +55,7 @@
       transition: all .3s;
     }
     .moreInfo:hover{
-      transform: rotate(180deg);
+      transform: rotate(360deg);
     }
     div:first-child{
       margin-left: 33px;

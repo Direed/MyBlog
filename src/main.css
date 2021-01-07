@@ -173,7 +173,10 @@
   display: flex;
   flex-direction: column;
 }
-#mySkills #more_details_window {
+#mySkills .more_details_window {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
   width: 512px;
   height: 242px;
   background: linear-gradient(90deg, #365FE8 0%, #B92EED 100%);
@@ -198,7 +201,7 @@
   transition: all 0.3s;
 }
 #mySkills .skill .moreInfo:hover {
-  transform: rotate(180deg);
+  transform: rotate(360deg);
 }
 #mySkills .skill div:first-child {
   margin-left: 33px;
@@ -275,6 +278,10 @@
   display: flex;
   align-items: center;
   text-align: center;
+}
+#myPortfolio .block-for-portfolio:hover {
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
 }
 
 body {

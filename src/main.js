@@ -132,6 +132,66 @@ for (let block of myLiBlock){
 }
 // Open block on page //
 
+
+// Open window "More Info" //
+const masMoreInfo = document.getElementsByClassName('moreInfo');
+for(let icon of masMoreInfo){
+    icon.addEventListener('mouseenter',(event) => {
+        if(event.target.id === 'jsInfo'){
+            document.getElementById('moreForJS').style.display = 'flex';
+        } else if(event.target.id === 'cssInfo'){
+            document.getElementById('moreForCSS').style.display = 'flex';
+        } else if(event.target.id === 'htmlInfo'){
+            document.getElementById('moreForHTML').style.display = 'flex';
+        } else if(event.target.id === 'reactInfo'){
+            document.getElementById('moreForREACT').style.display = 'flex';
+        }
+       /* const windowMore = document.getElementsByClassName('more_details_window')
+        for(let windowM of windowMore){
+            if(windowM.id === "moreForJS"){
+                document.getElementById('moreForJS').style.display = "flex";
+                break;
+            } else if(windowM.id === "moreForCSS"){
+                document.getElementById('moreForCSS').style.display = "flex";
+                break;
+            }
+        }
+    */});
+    icon.addEventListener('mouseleave', (event) => {
+        if(event.target.id === 'jsInfo'){
+            document.getElementById('moreForJS').style.display = 'none';
+        } else if(event.target.id === 'cssInfo'){
+            document.getElementById('moreForCSS').style.display = 'none';
+        } else if(event.target.id === 'htmlInfo'){
+            document.getElementById('moreForHTML').style.display = 'none';
+        } else if(event.target.id === 'reactInfo'){
+            document.getElementById('moreForREACT').style.display = 'none';
+        }
+        /*const windowMore = document.getElementsByClassName('more_details_window')
+        for(let windowM of windowMore){
+            switch (windowM.id) {
+                case "moreForJS":
+                    document.getElementById('moreForJS').style.display = "none";
+                    break;
+                case "moreForCSS":
+                    document.getElementById('moreForCSS').style.display = "none";
+                    break;
+                case "moreForHTML":
+                    document.getElementById('moreForHTML').style.display = "none";
+                    break;
+                case "moreForREACT":
+                    document.getElementById('moreForREACT').style.display = "none";
+                    break;
+            }
+        }
+    */})
+}
+// Open window "More Info" //
+
+
+
+
+
 const load = document.getElementById("loadForm");
 
 const rectangles = document.getElementsByClassName('loadRectangle');
